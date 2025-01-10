@@ -1,6 +1,9 @@
 {
   "name": "create-react-app-cli",
   "version": "1.0.0",
+  "bin": {
+    "create-my-react-app": "./index.js"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
